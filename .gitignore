@@ -1,0 +1,32 @@
+# Secretos y entorno local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Resultados locales (pueden contener salidas de prueba)
+resultados/*
+!resultados/.gitkeep
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Nunca subir datos reales de correo ni bases locales
+mailcc/
+*.db
+sync-out.json
+att/

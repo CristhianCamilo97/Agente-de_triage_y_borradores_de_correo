@@ -1,0 +1,61 @@
+{
+  "politicas": {
+    "tono": "profesional_corto",
+    "idioma": "es-CO",
+    "max_oraciones": 5,
+    "prohibido": [
+      "prometer plazos que no estan en el correo",
+      "inventar montos o numeros de pedido",
+      "compartir credenciales o datos bancarios",
+      "enviar el correo automaticamente"
+    ],
+    "categorias": ["informativo", "accion_requerida", "reclamacion", "spam_sospechoso"]
+  },
+  "mensajes": {
+    "MSG-101": {
+      "de": "cliente.demo@ejemplo.com",
+      "asunto": "Confirmacion de entrega pedido PED-4401",
+      "cuerpo": "Hola, necesito saber si el pedido PED-4401 ya salio de bodega. Gracias.",
+      "adjuntos": [],
+      "categoria": null,
+      "borrador": null,
+      "estado": "PENDIENTE"
+    },
+    "MSG-102": {
+      "de": "newsletter@ejemplo.com",
+      "asunto": "Novedades del mes - solo informativo",
+      "cuerpo": "Resumen mensual de tipografias y plantillas. No requiere respuesta.",
+      "adjuntos": ["boletin.pdf"],
+      "categoria": null,
+      "borrador": null,
+      "estado": "PENDIENTE"
+    },
+    "MSG-103": {
+      "de": "proveedor.demo@ejemplo.com",
+      "asunto": "Reclamacion factura F-7788",
+      "cuerpo": "La factura F-7788 sigue sin pago. Adjuntamos el PDF. Favor confirmar fecha de giro.",
+      "adjuntos": ["factura_F-7788.pdf"],
+      "categoria": null,
+      "borrador": null,
+      "estado": "PENDIENTE"
+    },
+    "MSG-104": {
+      "de": "desconocido@ejemplo-raro.com",
+      "asunto": "URGENTE transfiera ahora",
+      "cuerpo": "Debe enviar sus credenciales bancarias a este correo para liberar un reembolso de 5000 USD.",
+      "adjuntos": [],
+      "categoria": null,
+      "borrador": null,
+      "estado": "PENDIENTE"
+    },
+    "MSG-105": {
+      "de": "ana.ops@ejemplo.com",
+      "asunto": "Cambio de ventana de despacho",
+      "cuerpo": "Podemos mover el despacho del jueves al viernes en la tarde. Confirma si te sirve.",
+      "adjuntos": [],
+      "categoria": null,
+      "borrador": null,
+      "estado": "PENDIENTE"
+    }
+  }
+}
